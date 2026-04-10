@@ -1,0 +1,36 @@
+{
+  "name": "sqlgenie",
+  "version": "1.0.0",
+  "description": "🧙‍♂️ Convert natural language to SQL queries - no SQL knowledge required!",
+  "main": "src/index.js",
+  "bin": {
+    "sqlgenie": "bin/cli.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "sql",
+    "cli",
+    "natural-language",
+    "database",
+    "query",
+    "ai",
+    "tool",
+    "developer",
+    "productivity"
+  ],
+  "author": "nadonghuang",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nadonghuang/sqlgenie.git"
+  },
+  "dependencies": {
+    "commander": "^11.0.0"
+  }
+}
